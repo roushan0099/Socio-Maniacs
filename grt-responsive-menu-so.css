@@ -39,6 +39,10 @@ header nav {
 	padding-left:30px;
 	padding-right:30px;
 }
+.search-container {
+height:	
+width: 2cm:
+}
 
 .grt-menu-row {
 	display: flex;
@@ -200,28 +204,36 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
   }
   
   footer ul li {
-    display: inline-block;
+		display: inline-block;
+		font-size: 80%;
   }
   .social-media {
-	  padding-top: 1cm;
-  }
+		padding-top: 1cm;
+		
+	}
+	.social-logo {
+		padding-right: 1cm;
+	}
   
   a.social {
 	  
     display: inline-block;
     text-indent: -9999px;
-    margin-left: 5px;
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
+    margin-left: 5px ;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
     opacity: ;
     transition: all .5s;
   }
   a.facebook {
-    background-image: url(facebook.png);
+    background-image: url(facebook\ white.svg);
   }
   a.instagram {
-    background-image: url(instagram.png);
+    background-image: url(instagram\ white.svg);
+	}
+	a.linkidin {
+    background-image: url(linkedin\ white.svg);
   }
  
 
@@ -244,12 +256,12 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 
 	ul.grt-menu li.grt-dropdown:hover > a {
 		color:#FFF;
-		box-shadow: inset 150px 0 0 0 #ee2b34;
+		box-shadow: inset 150px 0 0 0#f38f1cc4;
 	}
 
 	ul.grt-menu li a:hover {
 		color:#FFF;
-		box-shadow: inset 150px 0 0 0 #ee2b34;
+		box-shadow: inset 150px 0 0 0#f38f1cc4;
 	}
 }
 

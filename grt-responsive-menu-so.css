@@ -193,11 +193,11 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 	}
   .contact-sociomaniacs {
 		padding-top: 2cm;
-		padding-left: 1cm;
+		
 		font-size: 90%;
 	}
 	.contact-socio {
-		padding-left: cm;
+		
 		font-size: 90%;
 	}
   
@@ -228,9 +228,19 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 	}
 	.social-logo {
 		padding-right: 1cm;
-		padding-top: 2cm;
+		padding-top: 1cm;
 	}
-	
+	.contact-socio a.social {
+		display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px ;
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+    opacity: ;
+		transition: all .5s;
+		text-align: center;
+	}
   
   a.social {
 	  
@@ -270,9 +280,7 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 	.phonenum {
 		padding-left: 0.5cm;
 	}
-	.contact-socio {
-		text-align: unset;
-	}
+	
 	
  .gmail a {
 	 color: #e69808;

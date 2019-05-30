@@ -447,8 +447,8 @@ template {
 }
 
 body {
-	background: #694b5e;
-	background: linear-gradient(to left, #694b5e, #BE5869);
+	background: #000000;
+	background: linear-gradient(to left, #141314, rgb(15, 14, 15));
 	height: 100vh;
 	color:#FFF;
   font-family: 'Lato', sans-serif;
